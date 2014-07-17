@@ -54,8 +54,12 @@ $app->bindInstallPaths(require __DIR__.'/paths.php');
 |
 */
 
+<<<<<<< HEAD
 $framework = $app['path.base'].
                  '/vendor/laravel/framework/src';
+=======
+$framework = $app['path.base'].'/vendor/laravel/framework/src';
+>>>>>>> 77f75046d8555a3f846e075e8387c3752bca7343
 
 require $framework.'/Illuminate/Foundation/start.php';
 
